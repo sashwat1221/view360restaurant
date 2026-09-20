@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>View 360 Restaurant | Rooftop Nepali Food and Drinks in Kirtipur</title>
+<meta name="description" content="View 360 Restaurant is a rooftop restaurant in Kirtipur, Kathmandu, opened in 2026, with a clear 360 degree view of the valley and the Himalayas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Marcellus&family=Mukta:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="#home" data-view="home" aria-label="View 360 Restaurant, home">
+      <img src="logo-small.png" width="46" height="46" alt="">
+      <span>View 360 <small>Restaurant</small></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a class="link" href="#home" data-view="home">Home</a>
+      <a class="link" href="#menu" data-view="menu">Menu</a>
+      <a class="link" href="#contact" data-scroll="contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- ================= HOME VIEW: information only ================= -->
+<div id="view-home">
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <h1>Eat with the whole valley around you.</h1>
+        <p class="lead">View 360 is a rooftop restaurant in Kirtipur, Kathmandu, serving Nepali food and drinks with an open view in every direction. We opened in 2026.</p>
+        <div class="cta">
+          <a class="btn btn-gold" href="#menu" data-view="menu">View the menu</a>
+          <a class="btn btn-line" href="#contact" data-scroll="contact">Find us</a>
+        </div>
+      </div>
+      <div class="hero-logo">
+        <img src="logo.webp" width="760" height="760" alt="View 360 Restaurant logo: Himalayan peak at sunset, a Newari temple and a stupa with prayer flags. Good food, great views, Nepal.">
+      </div>
+    </div>
+  </section>
+
+  <section class="sec sec-alt" id="about">
+    <div class="wrap">
+      <div class="about-grid">
+        <h2>A rooftop in Kirtipur, opened in 2026.</h2>
+        <div class="about-copy">
+          <p>Kirtipur sits on a ridge southwest of Kathmandu, and View 360 sits on top of it. From our roof there is nothing in the way. The valley spreads out below, the hills close in around it, and on clear days the Himalayan range shows along the horizon.</p>
+          <p>You can turn your chair and see all of it. We built the restaurant around that view, and cook the food we want to eat while looking at it: Nepali dishes made the way people here grew up eating them, with plenty of choice for vegetarians and meat eaters alike.</p>
+        </div>
+      </div>
+
+      <dl class="facts">
+        <div><dt>Opened</dt><dd>2026</dd></div>
+        <div><dt>Location</dt><dd>Kirtipur, Kathmandu, Nepal</dd></div>
+        <div><dt>The view</dt><dd>360 degrees, clearly visible from the rooftop</dd></div>
+        <div><dt>The kitchen</dt><dd>Nepali food, with vegetarian, chicken and buff options</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="sec" id="visit">
+    <div class="wrap">
+      <h2 class="visit-title">One roof, three kinds of light.</h2>
+      <div class="when">
+        <article>
+          <span class="orb morning" aria-hidden="true"></span>
+          <div><h3>Morning</h3><p>Clear air, a warm cup and the valley waking up below you.</p></div>
+        </article>
+        <article>
+          <span class="orb sunset" aria-hidden="true"></span>
+          <div><h3>Sunset</h3><p>The light turns gold over the hills and the peaks catch the last of it.</p></div>
+        </article>
+        <article>
+          <span class="orb evening" aria-hidden="true"></span>
+          <div><h3>Evening</h3><p>The lights of the valley come on in every direction.</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ================= MENU VIEW: shown only after clicking Menu ================= -->
+<div id="view-menu" hidden>
+  <section class="menu-head">
+    <div class="wrap">
+      <h1>Our menu</h1>
+      <p class="lead">Food comes first, then hot and cold beverages, then the bar. Prices are in Nepali rupees (Rs).</p>
+      <div class="legend">
+        <span><i class="mk v"></i> Vegetarian</span>
+        <span><i class="mk n"></i> Non-vegetarian</span>
+      </div>
+    </div>
+  </section>
+  <div class="chipbar" id="chipbar" aria-label="Menu categories"><div class="wrap chips" id="chips"></div></div>
+  <div class="wrap menu-body" id="menuBody"></div>
+</div>
+
+<!-- ================= CONTACT: shown at the end of every page ================= -->
+<section class="sec sec-alt contact" id="contact">
+  <div class="wrap">
+    <h2>Find us on the roof</h2>
+    <div class="contact-grid">
+      <div class="c-item">
+        <h3>Location</h3>
+        <p id="c-address"></p>
+        <p><a id="c-map" target="_blank" rel="noopener" href="#">Open in Google Maps</a></p>
+      </div>
+      <div class="c-item">
+        <h3>Contact</h3>
+        <p><a id="c-phone" href="#"></a></p>
+        <p id="c-hours"></p>
+      </div>
+      <div class="c-item">
+        <h3>Email</h3>
+        <p><a id="c-email" href="#"></a></p>
+        <p>We usually reply within a day.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <img src="logo-small.png" width="56" height="56" alt="">
+        <div>
+          <strong>View 360 Restaurant</strong>
+          <span lang="ne">भ्यु ३६० रेस्टुरेन्ट, कीर्तिपुर</span>
+        </div>
+      </div>
+   
+    </div>
+    <p class="fine">Good food. Great views. Nepal. Kirtipur, Kathmandu. Opened in 2026. © 2026 View 360 Restaurant.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
